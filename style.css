@@ -1,3 +1,5 @@
+
+/*-------------------- Tag --------------------*/
 body {
   padding: 0;
   width: 100%;
@@ -13,19 +15,12 @@ li {
   padding-left: 50px;
   padding-right: 50px;
 }
-.vociTendina {
-  display: none;
-}
-.testaTendina  {
-  color: black;
-  display: block;
-}
-.vociTendinaTwitch {
-  display: none;
-}
+
+/*-------------------- Classi e ID --------------------*/
 
 .tendina {
   display: none;
 }
-.testaTendina:hover .vociTendinaTwitch {display: block;}
+
+/*-------------------- Eventi --------------------*/
 .testaTendina:hover .tendina {display: block;}
