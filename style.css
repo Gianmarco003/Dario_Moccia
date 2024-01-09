@@ -17,9 +17,25 @@ li {
 }
 
 /*-------------------- Classi e ID --------------------*/
+#logo
+{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 100px;
+}
 
 .tendina {
   display: none;
+  position: absolute;
+  right: 0;
+  min-width: 160px;
+}
+
+.testaTendina{
+  position: relative;
+  display: inline-block;
 }
 
 /*-------------------- Eventi --------------------*/
