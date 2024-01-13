@@ -14,10 +14,11 @@ body {
   background-color: rgb(102, 167, 207);
   display: grid;
   place-items: center;
+  min-width: 800px;
 }
 
 nav {
-  width: 90%;
+  width: 95%;
   height: 40px;
   background-color: rgb(57, 139, 190);
   display: flex;
@@ -26,7 +27,6 @@ nav {
   border-radius: 15px;
 }
 
-
 li {
   display: inline-block;
   padding-left: 5px;
@@ -34,7 +34,9 @@ li {
 }
 
 section {
-  padding: 20px;
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
 }
@@ -43,12 +45,13 @@ footer {
   display: flex;
   justify-content: center;
   width: 90%;
-  height: 40px;
+  height: 70px;
 }
 
 footer a {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 60%;
 }
 
 /*-------------------- Classi e ID --------------------*/
@@ -60,10 +63,9 @@ footer a {
 }
 
 .boxLogo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 7%;
+  display: inline;
+  justify-content: center;
+  width: 100px;
 }
 
 .dario {
@@ -75,15 +77,12 @@ footer a {
   padding-top: 10px;
 }
 
-.testaTendina {
-}
-
 .imageStyle {
   border-radius: 15px;
   width: 100%;
 }
 
-nav a {
+nav div a {
   color: black;
   text-decoration: none;
 }
@@ -94,17 +93,27 @@ nav a {
   font-size: 14px;
   height: 100%;
   border: none;
+  display: flex;
+  align-items: center;
+}
+
+.navButton {
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.testaTendina {
+  height: 100%;
 }
 
 .tendina {
   display: none;
   position: absolute;
-  width: 80%;
   background-color: rgb(87, 179, 236);
   z-index: 1;
 }
-
-
 
 .linkSocial {
   display: flex;
@@ -115,7 +124,7 @@ nav a {
 
 .tendina a {
   color: black;
-  font-size: 16px;
+  font-size: 12px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -128,7 +137,7 @@ nav li div .bottone {
   font-weight: bold;
 }
 
-nav li .bottone {
+nav .bottone {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -151,13 +160,18 @@ nav li .bottone {
 
 /*-------------------- Eventi --------------------*/
 .testaTendina:hover .tendina {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
-nav li div a:hover {
-  background-color: rgb(89, 128, 225);
+nav div:hover {
+  background-color: rgb(16, 138, 214);
 }
 
-.bottone:hover {
-  background-color: rgb(89, 128, 225);
+nav div:hover div {
+  background-color: rgb(16, 138, 214);
+}
+
+nav div a:hover {
+  background-color: rgb(8, 106, 162);
 }
