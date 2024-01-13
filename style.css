@@ -1,89 +1,82 @@
-
-
-
 /*-------------------- Tag --------------------*/
 
 header {
-    background: rgb(37, 123, 177);
-    font-size: 16px;
-    color:black;
-    display: inline;
-    }
-    
+  background: rgb(37, 123, 177);
+  font-size: 16px;
+  color: black;
+  display: inline;
+}
+
 body {
   padding: 0;
   width: 100%;
-  margin: 0 auto;
-  background-color: rgb(37, 123, 177);
+  margin: 0;
+  background-color: rgb(102, 167, 207);
+  display: grid;
+  place-items: center;
 }
 
 nav {
-  width: 100%;
-  height: 60px;
-  background-color: lightblue;
-  margin: auto;
+  width: 90%;
+  height: 40px;
+  background-color: rgb(57, 139, 190);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
 
 li {
   display: inline-block;
-  padding-left: 0px;
-  padding-right: 0px;  
-  height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-
-section{
-padding: 20px;
-display: flex;
-justify-content: center;
+section {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
-footer{
-padding: 30px;
-display: flex;
-justify-content: center;
+footer {
+  width: 90%;
+  background-color: yellow;
+  height: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 
 /*-------------------- Classi e ID --------------------*/
-.logo{
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
-.boxlogo{
+.boxlogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 10%;
 }
 
-
 .dario {
-    display: block;
-        margin-right: auto;
-        width: 500px;
-        height: 100px;
-        padding-left:10px; 
-        padding-top:10px;
+  display: block;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-#sfondo {
-text-align: center;
-margin-left: auto;
-margin-right: auto;
+.testaTendina {
 }
 
-.testaTendina{
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.imageStyle{
+.imageStyle {
   border-radius: 15px;
+  width: 100%;
 }
 
 nav a {
@@ -94,22 +87,38 @@ nav a {
 .bottone {
   background-color: transparent;
   color: black;
-  font-size: 18px;
-  min-width: 200px;
+  font-size: 14px;
   height: 100%;
   border: none;
-  padding: 16px;
 }
-
 
 .tendina {
   display: none;
   position: absolute;
-  width: 200px;
+  width: 80%;
   background-color: rgb(87, 179, 236);
   z-index: 1;
 }
 
+footer ul {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  background-color: red;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.linkSocial {
+  background-color: blue;
+  width: 100%;
+}
 
 .tendina a {
   color: black;
@@ -122,29 +131,23 @@ nav a {
   font-weight: bold;
 }
 
-.linkSocial{
-  width: 70px;
-  padding: 20px;
-
-}
-
 nav li div .bottone {
-font-weight: bold;
+  font-weight: bold;
 }
 
 nav li .bottone {
-font-weight: bold;
-font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.center{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-#sonoQui{
+#sonoQui {
   background-color: transparent;
   color: black;
   padding: 16px;
@@ -153,10 +156,17 @@ width: 50%;
   border-bottom: 5px solid black;
 }
 
+
+
 /*-------------------- Eventi --------------------*/
-.testaTendina:hover .tendina {display: block;}
+.testaTendina:hover .tendina {
+  display: block;
+}
 
-nav li div a:hover {background-color: rgb(89, 128, 225);}
+nav li div a:hover {
+  background-color: rgb(89, 128, 225);
+}
 
-.bottone:hover {background-color: rgb(89, 128, 225);}
-
+.bottone:hover {
+  background-color: rgb(89, 128, 225);
+}
