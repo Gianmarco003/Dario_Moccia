@@ -1,1 +1,3 @@
 - aggiungere link social nel footer
+- Portare NAV mia in PRG lore
+- impostare tendina in verticale

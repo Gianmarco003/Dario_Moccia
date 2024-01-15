@@ -12,16 +12,16 @@ body {
   padding: 0;
   width: 100%;
   margin: 0;
-  background-color: rgb(102, 167, 207);
   display: grid;
   place-items: center;
   min-width: 800px;
+  background-color: rgb(37, 123, 177);
 }
 
 nav {
+  height: 60px;
+  background-color: lightblue;
   width: 95%;
-  height: 40px;
-  background-color: rgb(57, 139, 190);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,23 +30,25 @@ nav {
 
 li {
   display: inline-block;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 100%;
 }
 
 section {
-  width: 90%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   display: flex;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  width: 90%;
+  align-items: center;
+  width: 100%;
   height: 70px;
+  background-color: black;
 }
 
 footer a {
@@ -69,21 +71,7 @@ footer a {
   width: 100px;
 }
 
-.dario {
-  display: block;
-  margin-right: auto;
-  width: 500px;
-  height: 100px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.imageStyle {
-  border-radius: 15px;
-  width: 100%;
-}
-
-nav div a {
+nav a {
   color: black;
   text-decoration: none;
 }
@@ -99,28 +87,47 @@ nav div a {
 }
 
 .navButton {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 100%;
   display: flex;
   justify-content: center;
+
 }
+
+.dario {
+  display: block;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#sfondo {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav div a {
+  color: black;
+  text-decoration: none;
+}
+
 .testaTendina {
   height: 100%;
+
+}
+
+.imageStyle {
+  border-radius: 15px;
 }
 
 .tendina {
   display: none;
   position: absolute;
   background-color: rgb(87, 179, 236);
-  z-index: 1;
-}
-
-.linkSocial {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100%;
 }
 
 .tendina a {
@@ -144,6 +151,147 @@ nav .bottone {
   width: 100%;
 }
 
+.link {
+  color: blue;
+}
+
+.paragrafoBase {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contenitorePiattaforme {
+  width: 1000px;
+  height: 1800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+
+.contenutoPiattaforme1 {
+  width: 1000px;
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contenutoPiattaforme2 {
+  width: 1000px;
+  height: 600px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoPiattaforme3 {
+  width: 1000px;
+  height: 800px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoPiattaforme4 {
+  width: 1000px;
+  height: 300px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.videoyoutube {
+  width: 500px;
+  height: 300px;
+}
+
+.mocciaInstagram {
+  width: 520px;
+  height: 500px;
+}
+
+.telegram {
+  width: 80px;
+  height: 80px;
+}
+
+.contenitoreEventi {
+  width: 1000px;
+  height: 1900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+
+.contenutoEventi1 {
+  width: 1000px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.contenutoEventi2 {
+  width: 1000px;
+  height: 700px;
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contenutoEventi3 {
+  width: 1000px;
+  height: 600px;
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contenutoEventi4 {
+  width: 1000px;
+  height: 500px;
+  background-color: transparent;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#tomodachiTour {
+  width: 700px;
+  height: 400px;
+}
+
+#SiVola {
+  width: 140px;
+  height: 80px;
+}
+
+.linkSocial {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+nav li div .bottone {
+  font-weight: bold;
+}
+
+nav li .bottone {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -162,8 +310,8 @@ nav .bottone {
 
 /*-------------------- Eventi --------------------*/
 .testaTendina:hover .tendina {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: 20%;
 }
 
 nav div:hover {
