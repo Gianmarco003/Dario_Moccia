@@ -1,7 +1,7 @@
-- aggiungere link social nel footer
+- aggiungere link social nel footer (dario)
 - impostare tendina in verticale meglio
 - collegamento nav amici su tutti i file (martina)
 - widht in percentuale (lorenzo)
-- rimuovere i bordi
+- rimuovere i bordi (lorenzo)
 - dove sono? (martina)
 - tab index (martina)

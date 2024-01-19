@@ -85,6 +85,7 @@ nav a {
   border: none;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .navButton {
@@ -125,8 +126,8 @@ nav div a {
 
 .tendina {
   display: none;
-  position: absolute;
-  background-color: rgb(87, 179, 236);
+  position: relative;
+  background-color: lightblue;
 }
 
 .tendina a {
@@ -263,7 +264,6 @@ nav .bottone {
   text-align: center;
   vertical-align: middle;
 }
-
 
 .tabella {
   border-collapse: collapse;
@@ -753,17 +753,14 @@ nav li .bottone {
 /*-------------------- Eventi --------------------*/
 .testaTendina:hover .tendina {
   display: block;
-  width: 20%;
-}
-
-nav div:hover {
-  background-color: rgb(16, 138, 214);
-}
-
-nav div:hover div {
-  background-color: rgb(16, 138, 214);
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 nav div div a:hover {
-  background-color: rgb(8, 106, 162);
+  text-decoration: underline;
+}
+nav div  a:hover {
+  text-decoration: underline;
 }
