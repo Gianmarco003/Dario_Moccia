@@ -155,8 +155,16 @@ nav .bottone {
   color: blue;
 }
 
+.paragrafoBase {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*-------------------- Biografia--------------------*/
+
 .contenitoreBiografia {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -177,7 +185,7 @@ nav .bottone {
 .contenutoBiografia2 {
   width: 90%;
   background-color: transparent;
-  border: 1px solid black;
+
   justify-content: center;
   text-align: center;
   vertical-align: middle;
@@ -185,8 +193,10 @@ nav .bottone {
   padding-right: 10px;
 }
 
+/*-------------------- Panoramica-------------------*/
+
 .contenitorePanoramica {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -205,18 +215,18 @@ nav .bottone {
 }
 
 .contenutoPanoramica2 {
-  width: 90%;
+  width: 100%;
   background-color: transparent;
-  border: 1px solid black;
+
   justify-content: center;
   text-align: center;
   vertical-align: middle;
 }
 
 .contenutoPanoramica3 {
-  width: 90%;
+  width: 100%;
   background-color: transparent;
-  border: 1px solid black;
+
   justify-content: center;
   text-align: center;
   vertical-align: middle;
@@ -224,7 +234,10 @@ nav .bottone {
 
 .immaginePan {
   width: 40%;
+  border-radius: 10px;
 }
+
+/*-------------------- Palinsesto--------------------*/
 
 .contenitorePalinsesto {
   width: 90%;
@@ -236,7 +249,7 @@ nav .bottone {
 }
 
 .contenutoPalinsesto1 {
-  width: 90%;
+  width: 100%;
   background-color: transparent;
   border: transparent;
   display: flex;
@@ -246,8 +259,8 @@ nav .bottone {
 }
 
 .contenutoPalinsesto2 {
-  width: 1000px;
-  height: 100px;
+  width: 100%;
+
   background-color: transparent;
   border: 1px solid black;
   justify-content: center;
@@ -256,8 +269,8 @@ nav .bottone {
 }
 
 .contenutoPalinsesto3 {
-  width: 1100px;
-  height: 800px;
+  width: 100%;
+
   background-color: transparent;
   border: 1px solid black;
   justify-content: center;
@@ -278,18 +291,161 @@ td {
 }
 
 table th {
-  height: 80px;
-  min-width: 100px;
+  height: 90%;
 }
 
 table td {
-  height: 60px;
+  height: 90%;
 }
 
-.paragrafoBase {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
+/*-------------------- Piattaforme --------------------*/
+
+.contenitorePiattaforme {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+
+.contenutoPiattaforme1 {
+  width: 100%;
+
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contenutoPiattaforme2 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoPiattaforme3 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoPiattaforme4 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.videoyoutube {
+  width: 40%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.mocciaInstagram {
+  width: 40%;
+
+  border-radius: 10px;
+}
+
+.telegram {
+  width: 7%;
+}
+
+/*-------------------- Eventi --------------------*/
+
+.contenitoreEventi {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+
+.contenutoEventi1 {
+  width: 100%;
+
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.contenutoEventi2 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoEventi3 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+#tomodachiTour {
+  width: 50%;
+
+  border-radius: 10px;
+}
+
+#SiVola {
+  width: 10%;
+}
+
+#aperinerd {
+  width: 50%;
+
+  border-radius: 10px;
+}
+
+/*-------------------- Citazioni--------------------*/
+
+.contenitoreCitazioni {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+
+.contenutoCitazioni1 {
+  width: 1000px;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoCitazioni2 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoCitazioni3 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+#meme {
+  width: 30%;
+
+  border-radius: 10px;
 }
 
 .listaPuntataMeme {
@@ -298,6 +454,43 @@ table td {
   font-size: 19px;
   display: list-item;
   text-align: left;
+}
+
+/*-------------------- Amici --------------------*/
+
+.contenitoreAmici {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+
+.contenutoAmici1 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoAmici2 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+.contenutoAmici3 {
+  width: 100%;
+
+  background-color: transparent;
+  text-align: center;
+}
+
+#tomodachiCrew {
+  width: 35%;
 }
 
 .listaPuntataAmici {
@@ -310,187 +503,6 @@ table td {
   margin-top: 3px;
 }
 
-.contenitorePiattaforme {
-  width: 1000px;
-  height: 1800px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: transparent;
-  align-items: center;
-}
-
-.contenutoPiattaforme1 {
-  width: 1000px;
-  height: 50px;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.contenutoPiattaforme2 {
-  width: 1000px;
-  height: 600px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.contenutoPiattaforme3 {
-  width: 1000px;
-  height: 800px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.contenutoPiattaforme4 {
-  width: 1000px;
-  height: 300px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.videoyoutube {
-  width: 500px;
-  height: 300px;
-  border-radius: 10px;
-}
-
-.mocciaInstagram {
-  width: 520px;
-  height: 500px;
-  border-radius: 10px;
-}
-
-.telegram {
-  width: 80px;
-  height: 80px;
-}
-.contenitoreEventi {
-  width: 1000px;
-  height: 1600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: transparent;
-  align-items: center;
-}
-
-.contenutoEventi1 {
-  width: 1000px;
-  height: 50px;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.contenutoEventi2 {
-  width: 1000px;
-  height: 800px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.contenutoEventi3 {
-  width: 1000px;
-  height: 700px;
-  background-color: transparent;
-  text-align: center;
-}
-
-#tomodachiTour {
-  width: 700px;
-  height: 400px;
-  border-radius: 10px;
-}
-
-#SiVola {
-  width: 140px;
-  height: 80px;
-}
-
-#aperinerd {
-  width: 700px;
-  height: 400px;
-  border-radius: 10px;
-}
-
-.contenitoreCitazioni {
-  width: 1000px;
-  height: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: transparent;
-  align-items: center;
-}
-
-.contenutoCitazioni1 {
-  width: 1000px;
-  height: 50px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.contenutoCitazioni2 {
-  width: 1000px;
-  height: 400px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.contenutoCitazioni3 {
-  width: 1000px;
-  height: 700px;
-  background-color: transparent;
-  text-align: center;
-}
-
-#meme {
-  width: 400px;
-  height: 200px;
-  border-radius: 10px;
-}
-
-.contenitoreAmici {
-  width: 1000px;
-  height: 1200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: transparent;
-  align-items: center;
-}
-
-.contenutoAmici1 {
-  width: 1000px;
-  height: 50px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.contenutoAmici2 {
-  width: 1000px;
-  height: 600px;
-  background-color: transparent;
-  text-align: center;
-}
-
-.contenutoAmici3 {
-  width: 1000px;
-  height: 500px;
-  background-color: transparent;
-  text-align: center;
-}
-
-#tomodachiCrew {
-  width: 400px;
-  height: 400px;
-}
-
 .linkSocial {
   display: flex;
   margin-left: auto;
@@ -498,11 +510,10 @@ table td {
   height: 100%;
 }
 
-/*-------------------- Inizio parte di Marty --------------------*/
 /*-------------------- Carte --------------------*/
 .contenitoreCarte {
-  width: 1000px;
-  height: 2100px;
+  width: 90%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -511,43 +522,43 @@ table td {
 }
 
 .contenutoCarte1 {
-  width: 1000px;
-  height: 150px;
+  width: 100%;
+
   background-color: transparent;
   justify-content: center;
   text-align: center;
 }
 
 .contenutoCarte2 {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoCarte3 {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 .contenutoCarte4 {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 
 .imgCarte {
-  width: 400px;
-  height: 300px;
+  width: 40%;
+
   border-radius: 10px;
 }
 
 /*-------------------- Libri --------------------*/
 .contenitoreLibri {
-  width: 1000px;
-  height: 2000px;
+  width: 90%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -556,42 +567,42 @@ table td {
 }
 
 .contenutoLibri1 {
-  width: 1000px;
-  height: 100px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoLibri2 {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoLibri3 {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoLibri4 {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 
 .imgLibri {
-  width: 200px;
-  height: 300px;
+  width: 20%;
+
   border-radius: 10px;
 }
 /*-------------------- Agenzia --------------------*/
 .contenitoreAgenzia {
-  width: 1000px;
-  height: 900px;
+  width: 90%;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -600,8 +611,8 @@ table td {
 }
 
 .contenutoAgenzia1 {
-  width: 1000px;
-  height: 50px;
+  width: 100%;
+
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -610,21 +621,20 @@ table td {
 }
 
 .contenutoAgenzia2 {
-  width: 1000px;
-  height: 820px;
+  width: 100%;
+
   background-color: transparent;
   text-align: center;
 }
 
 .imgAgenzia {
   width: 50%;
-  height: 400px;
+
   border-radius: 10px;
 }
 
 .logoAgenzia {
-  width: 80px;
-  height: 80px;
+  width: 10%;
 }
 
 /*-------------------- Contatti--------------------*/
@@ -644,7 +654,7 @@ fieldset {
 }
 
 .contenitoreContatti {
-  width: 100%;
+  width: 90%;
   display: flex;
 
   justify-content: space-around;
@@ -661,7 +671,7 @@ fieldset {
 
 .contenutoContatti2 {
   width: 60%;
-  height: 600px;
+
   text-align: center;
   background-color: rgba(237, 186, 224, 0.91);
   border-radius: 10px;
@@ -710,21 +720,6 @@ fieldset {
   background-color: rgba(246, 166, 246, 0.963);
 }
 
-.caselleForm1:hover {
-  background-color: rgb(136, 94, 132);
-}
-.caselleForm2:hover {
-  background-color: rgb(136, 94, 132);
-}
-.caselleForm3:hover {
-  background-color: rgb(136, 94, 132);
-}
-.tastiForm:hover {
-  background-color: rgb(136, 94, 132);
-}
-
-/*-------------------- Fine parte di Marty --------------------*/
-
 nav li div .bottone {
   font-weight: bold;
 }
@@ -742,15 +737,11 @@ nav li .bottone {
 }
 
 #sonoQui {
-  background-color: transparent;
-  color: black;
-  padding: 16px;
-  font-size: 18px;
-  min-width: 200px;
-  border-bottom: 5px solid black;
+  text-decoration: underline;
 }
 
-/*-------------------- Eventi --------------------*/
+/*-------------------- Eventi Nav --------------------*/
+
 .testaTendina:hover .tendina {
   display: block;
   width: 100%;
@@ -761,8 +752,20 @@ nav li .bottone {
 nav div div a:hover {
   text-decoration: underline;
 }
-nav div  a:hover {
+nav div a:hover {
   text-decoration: underline;
+}
+
+/*-------------------- Eventi Form --------------------*/
+
+.caselleForm1:hover {
+  background-color: rgb(136, 94, 132);
+}
+.caselleForm2:hover {
+  background-color: rgb(136, 94, 132);
+}
+.caselleForm3:hover {
+  background-color: rgb(136, 94, 132);
 }
 
 /*                :
