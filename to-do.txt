@@ -4,3 +4,4 @@
 
 - colori
 - commenti
+- validare il sito
