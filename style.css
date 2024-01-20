@@ -642,6 +642,7 @@ fieldset {
   background-color: transparent;
   border-radius: 10px;
   text-align: center;
+  border: 1px solid black;
 }
 
 #paragrafoContatti {
@@ -673,7 +674,7 @@ fieldset {
   width: 60%;
 
   text-align: center;
-  background-color: rgba(237, 186, 224, 0.91);
+  background-color: #1e7172;
   border-radius: 10px;
 }
 
@@ -717,7 +718,7 @@ fieldset {
   height: 40px;
   font-size: large;
   border-radius: 10px;
-  background-color: rgba(246, 166, 246, 0.963);
+  background-color: #43acad;
 }
 
 nav li div .bottone {
@@ -759,23 +760,23 @@ nav div a:hover {
 /*-------------------- Eventi Form --------------------*/
 
 .caselleForm1:hover {
-  background-color: rgb(136, 94, 132);
+  background-color: #88f3f5;
 }
 .caselleForm2:hover {
-  background-color: rgb(136, 94, 132);
+  background-color: #88f3f5;
 }
 .caselleForm3:hover {
-  background-color: rgb(136, 94, 132);
+  background-color: #88f3f5;
 }
 
-/*                :
-|               ;
-|              :
-|              ;
-|             /
-|           o/
-|         ._/___,
-|             \
-|             /
-|             ` 
-*/
+.tastiForm:hover {
+  background-color: #88f3f5;
+}
+
+/*-------------------- Eventi Link--------------------*/
+
+
+.link:hover {
+  color: rgb(147, 64, 255) ;
+}
+
