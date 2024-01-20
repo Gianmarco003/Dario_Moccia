@@ -750,6 +750,13 @@ nav li .bottone {
   border-bottom-right-radius: 10px;
 }
 
+.testaTendina:focus .tendina {
+  display: block;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 nav div div a:hover {
   text-decoration: underline;
 }

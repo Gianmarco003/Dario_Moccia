@@ -1,7 +1,4 @@
-- collegamento nav amici su tutti i file (martina)
-- dove sono? (martina)
-- tab index (martina)
-
-- colori
 - commenti
-- validare il sito
+- validare il sito (fare screenshots, chiedere info ad enrico)
+- sistemare gli alt img
+- tabindex
