@@ -13,7 +13,7 @@
         <img src="immagini/logo.png" class="logo" alt="logo" />
       </a>
       <a href="index.html" tabindex="2">
-        <img src="immagini/dario.png" alt="" class="logo" />
+        <img src="immagini/dario.png" alt="logo" class="logo" />
       </a>
     </header>
 
@@ -68,26 +68,36 @@
 <section>
 <div class="contenitoreContatti">
     <div class="contenutoContatti1">
-      <label><h1>CONTATTI</h1>
+      <p class="testiContatti">CONTATTI</p>
       <p id="paragrafoContatti">Se sei interessato/a a collaborare con me, compila questo modulo con le tue credenziali personali o della tua società. 
      Nella sezione "Commento", potrai inserire ulteriori informazioni relative alla tua occupazione o sulla nostra futura collaborazione. 
-     </p></label>
+     </p>
     </div>
         
     <div class="contenutoContatti2">
       <form action="mailto:dario.moccia@gmail.com" method="post" enctype="text/plain"> 
       <fieldset>
 
-        <label for="name" class="vocineForm"><h3>NOME:</h3></label>
-        <input class="caselleForm1" type="text" name="nome" value="Scrivi il tuo nome" />
+        <br>
+        <label for="name" id="nome">NOME:</label>
+        <br>
+        <br>
+        
+        <input type="text" name="nome" id="name" placeholder="Scrivi il tuo nome" />
         <br/>
 
-        <label for="email" class="vocineForm"><h3>EMAIL:</h3></label>
-        <input class="caselleForm1" type="email" name="email" id="email" value="Scrivi la tua email" />
+        <br>
+        <label for="email" >EMAIL:</label>
+        <br>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Scrivi la tua email" />
         <br/>
 
-        <label for="country" class="vocineForm"><h3>PAESE:</h3></label>
-        <select class="caselleForm2" name="country" id="paese">
+        <br> 
+        <label for="country">PAESE:</label>
+        <br>
+        <br>
+        <select name="country" id="country">
       <optgroup label="Europa">
           <option value="aus">Austria</option>
           <option value="ita">Italia</option>
@@ -114,12 +124,18 @@
         </select>
         <br/>
 
-        <label for="comment" class="vocineForm"><h3>COMMENTO:</h3></label>
-        <textarea class="caselleForm2" name="commento" cols="50" rows="6">Spiega in breve chi sei, cosa fai e come ti piacerebbe collaborare. Se vuoi, inserisci un allegato.</textarea><br/><br/><input type="file" class="caselleForm3" name="file">
+        <br>
+        <label for="comment" >COMMENTO:</label>
+        <br>
+        <br>
+        <label><textarea id="comment" name="commento" cols="50" rows="6">Spiega in breve chi sei, cosa fai e come ti piacerebbe collaborare. Se vuoi, inserisci un allegato.</textarea></label>
+        <br/>
+        <br/>
+        <label><input type="file" id="file" name="file"></label>
         <br/>
 
-       <label for="sumbmit"><input class="tastiForm" type="submit" id="submit" value="Invia"/></label>
-       <label for="reset"><input class="tastiForm" type="reset" id="reset" value="Cancella"/></label>
+       <label for="submit"><input  type="submit" id="submit" value="Invia"/></label>
+       <label for="reset"><input  type="reset" id="reset" value="Cancella"/></label>
       </fieldset>
    </form>
 
