@@ -1,4 +1,0 @@
-- commenti
-- validare il sito (fare screenshots, chiedere info ad enrico)
-- sistemare gli alt img
-- tabindex

@@ -58,7 +58,7 @@ footer a {
   height: 60%;
 }
 
-/*-------------------- Classi e ID --------------------*/
+/*------------------------------ Classi e ID ------------------------------*/
 .logo {
   display: block;
   margin-left: auto;
@@ -163,7 +163,7 @@ nav .bottone {
 
 /*-------------------- Biografia--------------------*/
 
-.contenitoreBiografia {
+.contenitoreBiografia {  /*ogni pagina html ha il proprio "contenitore", il quale contiene i "div" (es. contenutoBiografia) in modo tale da tenerli in un certo ordine (mettendoli colonna, riga o altro) */
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -179,16 +179,14 @@ nav .bottone {
   display: flex;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
 .contenutoBiografia2 {
   width: 90%;
   background-color: transparent;
-
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -211,28 +209,26 @@ nav .bottone {
   display: flex;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
 .contenutoPanoramica2 {
   width: 100%;
   background-color: transparent;
-
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+ 
 }
 
 .contenutoPanoramica3 {
   width: 100%;
   background-color: transparent;
-
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
-.immaginePan {
+.immaginePanoramica {
   width: 40%;
   border-radius: 10px;
 }
@@ -255,7 +251,7 @@ nav .bottone {
   display: flex;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
 .contenutoPalinsesto2 {
@@ -265,7 +261,7 @@ nav .bottone {
   border: 1px solid black;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
 .contenutoPalinsesto3 {
@@ -275,7 +271,7 @@ nav .bottone {
   border: 1px solid black;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
 .tabella {
@@ -302,7 +298,6 @@ table td {
 
 .contenitorePiattaforme {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -312,31 +307,27 @@ table td {
 
 .contenutoPiattaforme1 {
   width: 100%;
-
   background-color: transparent;
   display: flex;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
 .contenutoPiattaforme2 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoPiattaforme3 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoPiattaforme4 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
@@ -345,11 +336,11 @@ table td {
   width: 40%;
   height: 300px;
   border-radius: 10px;
+  border: none;
 }
 
 .mocciaInstagram {
   width: 40%;
-
   border-radius: 10px;
 }
 
@@ -361,7 +352,6 @@ table td {
 
 .contenitoreEventi {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -371,31 +361,27 @@ table td {
 
 .contenutoEventi1 {
   width: 100%;
-
   background-color: transparent;
   display: flex;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+
 }
 
 .contenutoEventi2 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoEventi3 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 #tomodachiTour {
   width: 50%;
-
   border-radius: 10px;
 }
 
@@ -405,7 +391,6 @@ table td {
 
 #aperinerd {
   width: 50%;
-
   border-radius: 10px;
 }
 
@@ -413,7 +398,6 @@ table td {
 
 .contenitoreCitazioni {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -423,28 +407,24 @@ table td {
 
 .contenutoCitazioni1 {
   width: 1000px;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoCitazioni2 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoCitazioni3 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 #meme {
   width: 30%;
-
   border-radius: 10px;
 }
 
@@ -460,7 +440,6 @@ table td {
 
 .contenitoreAmici {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -470,21 +449,18 @@ table td {
 
 .contenutoAmici1 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoAmici2 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoAmici3 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
@@ -513,7 +489,6 @@ table td {
 /*-------------------- Carte --------------------*/
 .contenitoreCarte {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -523,7 +498,6 @@ table td {
 
 .contenutoCarte1 {
   width: 100%;
-
   background-color: transparent;
   justify-content: center;
   text-align: center;
@@ -531,34 +505,29 @@ table td {
 
 .contenutoCarte2 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoCarte3 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 .contenutoCarte4 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .imgCarte {
   width: 40%;
-
   border-radius: 10px;
 }
 
 /*-------------------- Libri --------------------*/
 .contenitoreLibri {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -568,41 +537,35 @@ table td {
 
 .contenutoLibri1 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoLibri2 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoLibri3 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .contenutoLibri4 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .imgLibri {
   width: 20%;
-
   border-radius: 10px;
 }
 /*-------------------- Agenzia --------------------*/
 .contenitoreAgenzia {
   width: 90%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -612,24 +575,21 @@ table td {
 
 .contenutoAgenzia1 {
   width: 100%;
-
   background-color: transparent;
   display: flex;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  
 }
 
 .contenutoAgenzia2 {
   width: 100%;
-
   background-color: transparent;
   text-align: center;
 }
 
 .imgAgenzia {
   width: 50%;
-
   border-radius: 10px;
 }
 
@@ -657,7 +617,6 @@ fieldset {
 .contenitoreContatti {
   width: 90%;
   display: flex;
-
   justify-content: space-around;
   background-color: transparent;
   align-items: center;
@@ -672,18 +631,19 @@ fieldset {
 
 .contenutoContatti2 {
   width: 60%;
-
   text-align: center;
   background-color: #1e7172;
   border-radius: 10px;
 }
 
-.vocineForm {
-  text-align: center;
+.testiContatti{
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.caselleForm1 {
+
+#name {
   width: 69%;
   height: 48px;
   font-size: large;
@@ -693,7 +653,17 @@ fieldset {
   background-color: white;
 }
 
-.caselleForm2 {
+#email {
+  width: 69%;
+  height: 48px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#country {
   width: 70%;
   height: 55px;
   font-size: large;
@@ -703,7 +673,17 @@ fieldset {
   background-color: white;
 }
 
-.caselleForm3 {
+#comment {
+  width: 70%;
+  height: 55px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#file{
   width: 70%;
   height: 57px;
   font-size: large;
@@ -713,7 +693,15 @@ fieldset {
   background-color: transparent;
 }
 
-.tastiForm {
+#submit {
+  width: 20%;
+  height: 40px;
+  font-size: large;
+  border-radius: 10px;
+  background-color: #43acad;
+}
+
+#reset{
   width: 20%;
   height: 40px;
   font-size: large;
@@ -750,13 +738,6 @@ nav li .bottone {
   border-bottom-right-radius: 10px;
 }
 
-.testaTendina:focus .tendina {
-  display: block;
-  width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
 nav div div a:hover {
   text-decoration: underline;
 }
@@ -766,17 +747,29 @@ nav div a:hover {
 
 /*-------------------- Eventi Form --------------------*/
 
-.caselleForm1:hover {
-  background-color: #88f3f5;
-}
-.caselleForm2:hover {
-  background-color: #88f3f5;
-}
-.caselleForm3:hover {
+#name:hover {
   background-color: #88f3f5;
 }
 
-.tastiForm:hover {
+#email:hover {
+  background-color: #88f3f5;
+}
+
+#country:hover {
+  background-color: #88f3f5;
+}
+#comment:hover {
+  background-color: #88f3f5;
+}
+#file:hover {
+  background-color: #88f3f5;
+}
+
+#submit:hover {
+  background-color: #88f3f5;
+}
+
+#reset:hover {
   background-color: #88f3f5;
 }
 
